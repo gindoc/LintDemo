@@ -32,7 +32,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-//    lintPublish project(':lintlib')
+//    lintPublish project(':lintlib')               // as 3.4+
     lintChecks project(':lintlib')
 
 }
